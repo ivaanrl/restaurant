@@ -1,0 +1,22 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivaanrl/restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivaanrl/restaurant/issues"
+  },
+  "homepage": "https://github.com/ivaanrl/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
+}
