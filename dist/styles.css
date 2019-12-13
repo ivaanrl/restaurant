@@ -1,0 +1,115 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(img/36688588_442543972886247_6355433918740561920_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.993);
+  align-items: center;
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 2%;
+}
+
+.navbar-logo img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.navbar-item {
+  padding-top: 13px;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+  margin-right: 20px;
+  color: #b4b4b4;
+  border-bottom: 1px solid white;
+  transition: 0.3s;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+  padding-bottom: -50%;
+  color: white;
+  transition: 0.3s;
+  border-bottom: 1px solid red;
+}
+
+.navbar-item-active {
+  border-bottom: 1px solid red;
+  color: white;
+}
+
+/* --------------------- MAIN CONTAINER -------------------------- */
+.main-container {
+  background-color: rgba(0, 0, 0, 0.623);
+  width: 1000px;
+  height: fit-content;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 70px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+/* ------------------------MENU-----------------------------*/
+.burger-div {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.burger-div .burger {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.burger-div .burger:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.burger-div .burger:active {
+  color: white;
+  background-color: black;
+}
+
+.burger-div .burger .burger-description {
+  font-weight: normal;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+/* ------------------ HOME -------------------*/
+.main-container p {
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-block: 60px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
